@@ -20,13 +20,28 @@
 	<link href="color/default.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<script src="js/modernizr.custom.js"></script>
-	<script>
 
-	</script>
+
+
 	
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	    <style>      
+      .google-maps {
+        position: relative;
+        padding-bottom: 60%;
+        height: 0;
+        overflow: hidden;
+      }
+      .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+      }      
+    </style>
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="load"></div>
@@ -51,6 +66,7 @@
 					<li><a href="#about" data-toggle="collapse" data-target=".navbar-main-collapse">活動宗旨</a></li>
 					<li><a href="#class" data-toggle="collapse" data-target=".navbar-main-collapse">活動課程</a></li>
 					<li><a href="#speaker" data-toggle="collapse" data-target=".navbar-main-collapse">講師介紹</a></li>
+					<li><a href="#location" data-toggle="collapse" data-target=".navbar-main-collapse">活動地點</a></li>
 					<li><a href="#enroll" data-toggle="collapse" data-target=".navbar-main-collapse">報名方法</a></li>
 					<li><a href="#contact" data-toggle="collapse" data-target=".navbar-main-collapse">聯絡我們</a></li>
 					<li><a href="#sponsor" data-toggle="collapse" data-target=".navbar-main-collapse">活動贊助</a></li>
@@ -243,9 +259,49 @@
 </section>
 <!-- /Section: about -->
 
+<section id="location" class="home-section text-center">
+
+	<div class="heading-about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+						<div class="section-heading">
+							<h2>活動地點</h2>
+							<i class="fa fa-2x fa-angle-down"></i>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+		<div class="span6 v-center">
+			<div class="content">
+				<h3><a href="http://yourspace.tw/space.html">【Your Space 數位時代】</a></h3>
+				<p>台北市光復南路102號3樓</p>
+<div style="margin:0 auto; padding:5px ; max-width:800px">    
+
+    <div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7286254874894!2d121.55752000000004!3d25.043281999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abc72f9d947d%3A0x4c8b9dcb080fdbfc!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A5YWJ5b6p5Y2X6LevMTAy6Jmf!5e0!3m2!1szh-TW!2stw!4v1414070414180" width="600" height="450" frameborder="0" style="border:0"></iframe>    </div>
+</div>
+			</div>
+		</div>		
+	</div>
+</section>
+
+
+
+
 
 <!-- Section: services -->
-<section id="enroll" class="home-section text-center">
+<section id="enroll" class="home-section text-center bg-gray">
 
 	<div class="heading-about">
 		<div class="container">
@@ -333,7 +389,7 @@
 
 
 <!-- Section: contact -->
-<section id="contact" class="home-section text-center bg-gray">
+<section id="contact" class="home-section text-center">
 	<div class="heading-contact">
 		<div class="container">
 			<div class="row">
@@ -382,7 +438,7 @@
 		</div>
 	</div>
 </section>
-<section id="sponsor" class="home-section text-center">
+<section id="sponsor" class="home-section text-center bg-gray">
 
 	<div class="heading-about">
 		<div class="container">
