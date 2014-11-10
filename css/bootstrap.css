@@ -3568,7 +3568,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .nav-pills > li {
-  float: left;
+  float: none;
+  display: inline-block;
 }
 .nav-pills > li > a {
   border-radius: 4px;
